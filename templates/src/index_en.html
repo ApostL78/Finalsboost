@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="ru"><!-- BEGIN HEAD -->
+
+<head>
+  <!-- BEGIN meta -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title itemprop="headline"></title>
+  <meta name="author" content="" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+  <!-- END meta -->
+
+  <!-- BEGIN favicon -->
+  <link rel="shortcut icon" href="{{ STATIC_URL }}/static/img/favicon.svg" type="image/x-icon">
+  <!-- END favicon -->
+
+  <!-- BEGIN stylesheet -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}/static/css/style.min.css">
+  <!-- END stylesheet -->
+
+  <!-- BEGIN scripts -->
+  <script src="{{ STATIC_URL }}/static/js/libs.min.js"></script>
+  <script src="{{ STATIC_URL }}/static/js/main.min.js"></script>
+  <!-- END scripts -->
+
+</head>
+<!-- END HEAD --><!-- BEGIN BODY -->
+
+<body>
+  <div class="wrapper"> <!-- BEGIN HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__content flex-vc-bw">
+          <div class="header__menu menu">
+            <ul class="menu__list flex">
+              <li class="menu__item">
+                <a href="#home" class="menu__link" title="Главная" data-link="anchor">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#working" class="menu__link" title="Как это работает" data-link="anchor">How it Works</a>
+              </li>
+            </ul>
+          </div>
+          <a href="/" class="header__logo logo" title="TireUp">
+            <picture>
+              <source srcset="{{ STATIC_URL }}/static/img/logo.webp" type="image/webp">
+              <img src="{{ STATIC_URL }}/static/img/logo.png" alt="TireUp" class="logo__img">
+            </picture>
+          </a>
+          <div class="header__menu menu">
+            <ul class="menu__list flex">
+              <li class="menu__item">
+                <a href="#about" class="menu__link" title="О нас" data-link="anchor">About us</a>
+              </li>
+              <li class="menu__item">
+                <a href="#join" class="menu__link" title="Присоединяйтесь" data-link="anchor">Join now</a>
+              </li>
+            </ul>
+          </div>
+          <div class="burger-btn" data-btn="menu">
+            <span class="burger-btn__line"></span>
+            <span class="burger-btn__line"></span>
+            <span class="burger-btn__line"></span>
+          </div>
+        </div>
+      </div>
+      <div class="mob-menu" data-menu="mob">
+        <div class="container">
+          <ul class="mob-menu__list">
+            <li class="mob-menu__item">
+              <a href="#home" class="mob-menu__link" data-link="anchor">Home</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="#working" class="mob-menu__link" data-link="anchor">How it Works</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="#about" class="mob-menu__link" data-link="anchor">About us</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="#join" class="mob-menu__link" data-link="anchor">Join now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header> <!-- END HEADER --> <!-- BEGIN CONTENT SITE -->
+    <main class="page"> <!-- BEGIN SECTION HOME -->
+      <section class="page__home home" id="home">
+        <div class="container">
+          <div class="home__content">
+            <div class="home__title title">
+              <h1>Excellence in The Finals!</h1>
+            </div>
+            <div class="home__text"> Boost your game, dominate the court, and become the ultimate champion! Unlock your full potential with our exclusive boosting services. Are you ready for the challenge? Join us now! </div>
+            <a href="#join" class="home__btn btn btn__second" title="Join now" data-link="anchor">
+              <span> More about </span>
+              <picture>
+                <source srcset="{{ STATIC_URL }}/static/img/icon/user.svg" type="image/webp">
+                <img src="{{ STATIC_URL }}static/img/icon/user.svg" class="icon" alt="">
+              </picture>
+            </a>
+          </div>
+          <div class="home__img">
+            <picture>
+              <source srcset="{{ STATIC_URL }}/static/img/img-home.webp" type="image/webp">
+              <img src="{{ STATIC_URL }}/static/img/img-home.png" alt="" class="img">
+            </picture>
+          </div>
+          <div class="home__img home__img_mob">
+            <picture>
+              <source srcset="{{ STATIC_URL }}/static/img/img-home2.webp" type="image/webp">
+              <img src="{{ STATIC_URL }}/static/img/img-home2.png" alt="" class="img">
+            </picture>
+          </div>
+        </div>
+      </section> <!-- END SECTION HOME --> <!-- BEGIN SECTION HOW WORKING -->
+      <section class="page__working working" id="working">
+        <div class="container">
+          <div class="working__title working__title_mob title">
+            <h2> The Finals Boost: How it works? </h2>
+          </div>
+          <div class="working__content flex-vc-bw">
+            <div class="working__col slider"> SLIDER </div>
+            <div class="working__col">
+              <div class="working__title title">
+                <h2> The Finals Boost: How it works? </h2>
+              </div>
+              <div class="working__item">
+                <div class="working__subtitle">
+                  Choose your desired boost and customize your gaming experience
+                </div>
+                <div class="working__text"> Our experienced team of professionals will handle your account and deliver exceptional results </div>
+              </div>
+              <div class="working__item">
+                <div class="working__subtitle">
+                  Sit back, relax, and watch your game progress skyrocket as you climb the rankings
+                </div>
+                <div class="working__text"> Enjoy the exhilaration of being a top player while maximizing your enjoyment of The Finals! </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- END SECTION HOW WORKING --> <!-- BEGIN SECTION INFORMATION -->
+      <section class="page__info info" id="about">
+        <div class="container">
+          <div class="info__title title">
+            <h2> Why Choose Us for The Finals Boost? </h2>
+          </div>
+          <div class="advant">
+            <div class="advant__item">
+              <div class="advant__icon">
+                <picture>
+                  <source srcset="{{ STATIC_URL }}/static/img/icon/exclude.svg" type="image/webp">
+                  <img src="{{ STATIC_URL }}/static/img/icon/exclude.svg" alt="" class="icon">
+                </picture>
+              </div>
+              <div class="advant__title"> Expertise </div>
+              <div class="advant__text"> Our skilled players have years of experience in The Finals to provide the highest quality boost </div>
+            </div>
+            <div class="advant__item">
+              <div class="advant__icon">
+                <picture>
+                  <source srcset="{{ STATIC_URL }}/static/img/icon/exclude.svg" type="image/webp">
+                  <img src="{{ STATIC_URL }}/static/img/icon/exclude.svg" alt="" class="icon">
+                </picture>
+              </div>
+              <div class="advant__title"> Security </div>
+              <div class="advant__text"> We prioritize your account's safety and ensure discreet and secure handling at all times </div>
+            </div>
+            <div class="advant__item">
+              <div class="advant__icon">
+                <picture>
+                  <source srcset="{{ STATIC_URL }}/static/img/icon/exclude.svg" type="image/webp">
+                  <img src="{{ STATIC_URL }}/static/img/icon/exclude.svg" alt="" class="icon">
+                </picture>
+              </div>
+              <div class="advant__title"> Timely Delivery </div>
+              <div class="advant__text"> We value your time and guarantee efficient and prompt boost delivery </div>
+            </div>
+          </div>
+          <div class="info__title title">
+            <h2> Customer reviews: </h2>
+          </div>
+        </div>
+        <div class="container container_reviews">
+          <div class="reviews">
+            <div class="reviews__content">
+              <div class="reviews__item">
+                <div class="reviews__row flex-vc">
+                  <div class="reviews__img">
+                    <picture>
+                      <source srcset="{{ STATIC_URL }}/static/img/avatar/img1.webp" type="image/webp">
+                      <img src="{{ STATIC_URL }}/static/img/avatar/img1.png" alt="" class="img">
+                    </picture>
+                  </div>
+                  <div class="reviews__wrapp">
+                    <div class="reviews__name"> Mark S. </div>
+                    <div class="reviews__date"> 11.02.2023 </div>
+                  </div>
+                </div>
+                <div class="reviews__text"> "Amazing boosting service! Thanks to them, I reached the top of the leaderboards in no time. Highly recommended!" </div>
+                <div class="reviews__rating flex-vc">
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div class="reviews__row flex-vc">
+                  <div class="reviews__img">
+                    <picture>
+                      <source srcset="{{ STATIC_URL }}/static/img/avatar/img1.webp" type="image/webp">
+                      <img src="{{ STATIC_URL }}/static/img/avatar/img1.png" alt="" class="img">
+                    </picture>
+                  </div>
+                  <div class="reviews__wrapp">
+                    <div class="reviews__name"> YOU </div>
+                    <div class="reviews__date"> NOW </div>
+                  </div>
+                </div>
+                <div class="reviews__text"> "leave your review!" </div>
+                <div class="reviews__rating flex-vc">
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div class="reviews__row flex-vc">
+                  <div class="reviews__img">
+                    <picture>
+                      <source srcset="{{ STATIC_URL }}/static/img/avatar/img1.webp" type="image/webp">
+                      <img src="{{ STATIC_URL }}/static/img/avatar/img1.png" alt="" class="img">
+                    </picture>
+                  </div>
+                  <div class="reviews__wrapp">
+                    <div class="reviews__name"> YOU </div>
+                    <div class="reviews__date"> NOW </div>
+                  </div>
+                </div>
+                <div class="reviews__text"> "leave your review!" </div>
+                <div class="reviews__rating flex-vc">
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                </div>
+              </div>
+              <div class="reviews__item">
+                <div class="reviews__row flex-vc">
+                  <div class="reviews__img">
+                    <picture>
+                      <source srcset="{{ STATIC_URL }}/static/img/avatar/img1.webp" type="image/webp">
+                      <img src="{{ STATIC_URL }}/static/img/avatar/img1.png" alt="" class="img">
+                    </picture>
+                  </div>
+                  <div class="reviews__wrapp">
+                    <div class="reviews__name"> YOU </div>
+                    <div class="reviews__date"> NOW </div>
+                  </div>
+                </div>
+                <div class="reviews__text"> "leave your review!" </div>
+                <div class="reviews__rating flex-vc">
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                  <picture>
+                    <source srcset="{{ STATIC_URL }}/static/img/icon/star.svg" type="image/webp">
+                    <img src="{{ STATIC_URL }}/static/img/icon/star.svg" alt="" class="icon">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- END SECTION INFORMATION --> <!-- BEGIN SECTION ACTION -->
+      <section class="page__action action" id="join">
+        <div class="container">
+          <div class="action__content">
+            <div class="action__title title">
+              <h2>
+                <a href="#" class="action__link">Join</a> right now!
+              </h2>
+            </div>
+            <a href="#" class="action__btn btn btn__accent" title="Зарегистрироваться">
+              <span> dm in telegram (@finalsboost) or discord (hsikur) for more info </span>
+            </a>
+          </div>
+        </div>
+      </section> <!-- END SECTION ACTION -->
+    </main> <!-- END CONTENT SITE --> <!-- BEGIN FOOTER --> <!-- END FOOTER -->
+  </div>
+</body><!-- END BODY -->
+
+</html>
